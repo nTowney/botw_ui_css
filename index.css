@@ -1,0 +1,28 @@
+html{
+    box-sizing: border-box;
+    display: flex;
+}
+
+*{
+    border: solid 1px black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.top{
+    display: flex;
+}
+
+.middle{
+    display: flex;
+}
+
+.bottom{
+    display: flex;
+}
